@@ -73,7 +73,8 @@ body {
   text-decoration: line-through;
 }
 
-.edit-btn, .delete-btn {
+.edit-btn,
+.delete-btn {
   background-color: #fff;
   color: #0072c6;
   border: 2px solid #0072c6;
@@ -84,7 +85,8 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.edit-btn:hover, .delete-btn:hover {
+.edit-btn:hover,
+.delete-btn:hover {
   background-color: #0072c6;
   color: #fff;
 }
@@ -140,5 +142,4 @@ body {
   background-color: #fff;
   border: 2px solid #0072c6;
   border-radius: 5px;
-
 }
