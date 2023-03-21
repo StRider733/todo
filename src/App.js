@@ -21,7 +21,7 @@ function App() {
   };
 
   const handleEdit = (id, newName) => {
-    if (!newName) {
+    if (!newName) { 
       return
     }
     const newTodos = todos.map((todo) => {
